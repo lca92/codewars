@@ -20,6 +20,8 @@
 
 // ("-++-", "-+-+") ➞ "-+00"
 
+// My answer:
+
 function neutralise(s1, s2) {
   let result = "";
   for (let i = 0; i < s1.length; i++) {
@@ -34,3 +36,5 @@ function neutralise(s1, s2) {
 // 3. I do a for loop to iterate through the indexes. Since it doesn't really matter what the character is on each given string, only if they're equal or not, this one loop is enough.
 // 4. Now let's check the indexes. If they're equal, result will be result plus the index; if not, it's result plus 0.
 // 5. Return result.
+
+// Kata from https://www.codewars.com/kata/65128732b5aff40032a3d8f0/javascript
