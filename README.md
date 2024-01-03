@@ -1,1 +1,1 @@
-Hello. I like coding challenges. Here are my answers.
+Hello. I like code challenges. Here are my answers.
