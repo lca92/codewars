@@ -1,0 +1,1 @@
+Hello. I like coding challenges. Here are my answers.
