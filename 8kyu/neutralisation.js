@@ -1,3 +1,5 @@
+// Neutralisation
+
 // DESCRIPTION:
 // Given two strings comprised of + and -, return a new string which shows how the two strings interact in the following way:
 
