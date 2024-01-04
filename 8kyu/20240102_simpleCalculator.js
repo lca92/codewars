@@ -17,7 +17,7 @@
 
 // My answer:
 
-function calculator(a, b, sign) {
+const calculator = (a, b, sign) => {
   if (typeof a == "number" && typeof b == "number") {
     switch (sign) {
       case "+":
@@ -31,7 +31,7 @@ function calculator(a, b, sign) {
     }
   }
   return "unknown value";
-}
+};
 
 // My reasoning:
 // 1. First, I'll check if a and b are numbers with typeof. If they are not, I'll return "unknown value".

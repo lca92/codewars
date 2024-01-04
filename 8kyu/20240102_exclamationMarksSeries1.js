@@ -13,9 +13,7 @@
 
 // My answer:
 
-function remove(s) {
-  return s.endsWith("!") ? s.slice(0, -1) : s;
-}
+const remove = (s) => (s.endsWith("!") ? s.slice(0, -1) : s);
 
 // My reasoning:
 // 1. I have to check if the string ends with "!", so I use the very intuitively named method endsWith(), which returns a boolean.

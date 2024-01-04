@@ -11,26 +11,22 @@
 
 // My answer:
 
-function countPositivesSumNegatives(input) {
+const countPositivesSumNegatives = (input) => {
   if (!input || input.length === 0) return [];
 
   const result = [0, 0];
 
-  for (let i = 0; i < input.length; i++) {
-    if (input[i] > 0) {
-      result[0]++;
-    } else {
-      result[1] += input[i];
-    }
-  }
+  input.forEach((integer) =>
+    integer > 0 ? result[0]++ : (result[1] += integer)
+  );
 
   return result;
-}
+};
 
 // My reasoning:
-// 1. For the first if: the opposite of an existing object is null; if the length of an array is 0, it's an empty array.
+// 1. For the if: the opposite of an existing object is null; if the length of an array is 0, it's an empty array.
 // 2. Now, I start with an array result with two values, both equal to 0.
-// 3. I iterate through the indexes of input.
+// 3. I iterate through the indexes of input with forEach().
 // 4. If a given integer is bigger than 0, I add 1 to result's index 0. It serves as a counter.
 // 5. If a given integer is less or equal to 0, I sum it to the current value at result's index 1. Since adding 0 makes no difference, I don't have to check if the integer is 0 or negative.
 // 6. Return the result.

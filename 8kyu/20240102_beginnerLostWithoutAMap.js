@@ -9,9 +9,7 @@
 
 // My answer:
 
-function maps(x) {
-  return x.map((integer) => integer * 2);
-}
+const maps = (x) => x.map((integer) => integer * 2);
 
 // My reasoning:
 // 1. A simple challenge just to practice map(). map() creates a new array from calling a function for every array element.

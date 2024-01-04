@@ -13,4 +13,4 @@ const evenOrOdd = (number) => (number % 2 == 0 ? "Even" : "Odd");
 // 4. If the answer is "no", it has to be an odd number, so I return "Odd".
 
 // Kata from https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
-// 2024.01.03
+// 2024.01.02
