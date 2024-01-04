@@ -14,7 +14,7 @@ const differenceInAges = (ages) => {
 
 // My reasoning:
 // 1. Let's define the youngest person's age. sort() will organize the integers in ascending order, but it does this based on Unicode characters.
-// 2. 
+// 2.
 
 // Kata from https://www.codewars.com/kata/5720a1cb65a504fdff0003e2/javascript
-// 2024.01.03
+// 2024.01.04
