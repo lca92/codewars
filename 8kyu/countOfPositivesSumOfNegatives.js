@@ -36,4 +36,4 @@ function countPositivesSumNegatives(input) {
 // 6. Return the result.
 
 // Kata from https://www.codewars.com/kata/576bb71bbbcf0951d5000044/javascript
-// 2024.01.03
+// 2024.01.01
