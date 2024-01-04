@@ -22,3 +22,4 @@ function position(letter) {
 // 5. I return the position of said letter in the alphabet.
 
 // Kata from https://www.codewars.com/kata/5808e2006b65bff35500008f/javascript
+// 2024.01.02

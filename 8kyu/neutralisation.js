@@ -40,3 +40,4 @@ function neutralise(s1, s2) {
 // 5. Return result.
 
 // Kata from https://www.codewars.com/kata/65128732b5aff40032a3d8f0/javascript
+// 2024.01.01
