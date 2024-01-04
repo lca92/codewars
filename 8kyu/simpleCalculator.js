@@ -18,7 +18,7 @@
 // My answer:
 
 function calculator(a, b, sign) {
-  if (typeof a === "number" && typeof b === "number") {
+  if (typeof a == "number" && typeof b == "number") {
     switch (sign) {
       case "+":
         return a + b;
@@ -34,6 +34,8 @@ function calculator(a, b, sign) {
 }
 
 // My reasoning:
+// 1. First, I'll check if a and b are numbers with typeof. If they are not, I'll return "unknown value".
+// 2. If they are numbers, now I have to check which of the four possible mathematical signs is the argument sign. For each case, I'll perform the corresponding calculation.
 
 // Kata from https://www.codewars.com/kata/5810085c533d69f4980001cf/javascript
 // 2024.01.02
