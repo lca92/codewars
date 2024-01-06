@@ -12,7 +12,11 @@
 
 // My answer:
 
+const paperwork = (n, m) => (n < 0 || m < 0 ? 0 : n * m);
+
 // My reasoning:
+// 1. I have to multiple the number of pages by the number of classmates.
+// 2. I use a ternary operator to first exclude any numbers below zero, and then multiple n by m.
 
 // Kata from https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd
 // 2024.01.04
