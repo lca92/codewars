@@ -8,13 +8,16 @@
 
 const differenceInAges = (ages) => {
   let youngest = ages.sort((a, b) => a - b)[0];
-  let oldest = ages.sort((a, b) => a - b).reverse()[0];
+  let oldest = ages.sort((a, b) => b - a)[0];
   return [youngest, oldest, oldest - youngest];
 };
 
 // My reasoning:
 // 1. Let's define the youngest person's age. sort() will organize the integers in ascending order, but it does this based on Unicode characters.
-// 2.
+// 2. To put it in the order of the natural numbers, we must iterate subtracting b from a.
+// 3. We add [0] at the end to select the first index from the youngest array.
+// 3. Now, we do the same for the oldest person's age, but subtracting a from b.
+// 4. We return the youngest, the oldest and the difference in years between them.
 
 // Kata from https://www.codewars.com/kata/5720a1cb65a504fdff0003e2/javascript
 // 2024.01.04
