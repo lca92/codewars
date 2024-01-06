@@ -16,7 +16,10 @@
 
 // My answer:
 
+const stringToNumber = (str) => parseInt(str);
+
 // My reasoning:
+// 1. The parseInt() function parses a string argument and returns an integer of the specified radix.
 
 // Kata from https://www.codewars.com/kata/544675c6f971f7399a000e79
 // 2024.01.04
