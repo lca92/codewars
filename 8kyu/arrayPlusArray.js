@@ -6,7 +6,8 @@
 
 // My answer:
 
-const arrayPlusArray = (arr1, arr2) => arr1
+const arrayPlusArray = (arr1, arr2) =>
+  arr1
     .concat(arr2)
     .reduce((accumulator, currentValue) => accumulator + currentValue);
 
@@ -18,4 +19,3 @@ const arrayPlusArray = (arr1, arr2) => arr1
 // 5. Then it returns the total sum of the array.
 
 // Kata from https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/javascript
-// 2024.01.01

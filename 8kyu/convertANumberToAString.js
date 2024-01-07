@@ -17,4 +17,4 @@ const numberToString = (num) => num.toString();
 // 1. The toString() method of Number values returns a string representing this number value.
 
 // Kata from https://www.codewars.com/kata/5265326f5fda8eb1160004c8/javascript
-// 2024.01.04
+

@@ -19,4 +19,3 @@ const paperwork = (n, m) => (n < 0 || m < 0 ? 0 : n * m);
 // // 2. I use a ternary operator first to exclude any numbers below zero, and then multiply n by m.
 
 // Kata from https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd
-// 2024.01.04

@@ -16,4 +16,4 @@ const maps = (x) => x.map((integer) => integer * 2);
 // 2. So, if we want to double every integer in the x array, we have to multiply each of them by 2.
 
 // Kata from https://www.codewars.com/kata/57f781872e3d8ca2a000007e
-// 2024.01.02
+

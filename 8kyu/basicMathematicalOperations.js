@@ -22,4 +22,3 @@ const basicOp = (operation, value1, value2) =>
 // 2. So, if I use it to evaluate value1 + operation + value2, it returns the expected result.
 
 // Kata from https://www.codewars.com/kata/57356c55867b9b7a60000bd7/javascript
-// 2024.01.02
