@@ -30,7 +30,36 @@
 
 // My answer:
 
+function getLength(arr) {
+  //return length of arr
+  return arr.length;
+}
+function getFirst(arr) {
+  //return the first element of arr
+  return arr[0];
+}
+function getLast(arr) {
+  //return the last element of arr
+  return arr[arr.length - 1];
+}
+function pushElement(arr) {
+  var el = 1;
+  //push el to arr
+  arr.push(el);
+  return arr;
+}
+function popElement(arr) {
+  //pop an element from arr
+  arr.pop();
+  return arr;
+}
+
 // My reasoning:
+// 1. Mainly no thoughts, just vibes, but I have thoughts on the getLast() function.
+// 2. To have access to the last index, we can check how many items there are in the array with length.
+// 3. But since the index starts at 0 and we start counting in 1, we have to subtract 1 from the length of the array.
+// 4. Other than that, push() adds an element to the end of the array...
+// 5. ... and pop() excludes an element from the end of the array.
 
 // Kata from https://www.codewars.com/kata/571effabb625ed9b0600107a
 // 2024.01.05
