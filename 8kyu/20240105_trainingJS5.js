@@ -23,7 +23,10 @@
 
 // My answer:
 
+const animal = (obj) => `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+
 // My reasoning:
+// 1. One way to access an object's values is by using the dot operator and the name of the property we want.
 
 // Kata from https://www.codewars.com/kata/571f1eb77e8954a812000837
 // 2024.01.05
