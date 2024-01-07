@@ -13,4 +13,3 @@ function multiply(a, b) {
 // 1. It was lacking a return statement.
 
 // Kata from https://www.codewars.com/kata/50654ddff44f800200000004/javascript
-// 2024.01.03

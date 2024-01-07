@@ -22,4 +22,3 @@ const remove = (s) => (s.endsWith("!") ? s.slice(0, -1) : s);
 // 4. If it doesn't, I return the original string.
 
 // Kata from https://www.codewars.com/kata/57fae964d80daa229d000126/javascript
-// 2024.01.02

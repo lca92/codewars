@@ -30,7 +30,7 @@ const neutralise = (s1, s2) => {
     result += s1[i] == s2[i] ? s1[i] : "0";
   }
   return result;
-}
+};
 
 // My reasoning:
 // 1. Both s1 and s2 have the same length, so I don't need to check that.
@@ -40,4 +40,3 @@ const neutralise = (s1, s2) => {
 // 5. Return result.
 
 // Kata from https://www.codewars.com/kata/65128732b5aff40032a3d8f0/javascript
-// 2024.01.01

@@ -50,4 +50,3 @@ function helloWorld() {
 // 1. No thoughts, just vibes.
 
 // Kata from https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
-// 2024.01.04

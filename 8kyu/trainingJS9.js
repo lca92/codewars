@@ -70,4 +70,3 @@ const padIt = (str, n) => {
 // 4. Since we start by the left, the * on the left will be on the true side of the ternary operator.
 
 // Kata from https://www.codewars.com/kata/57216d4bcdd71175d6000560
-// 2024.01.06

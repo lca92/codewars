@@ -22,4 +22,3 @@ const STRANGE_STRING = "İ";
 // 2. We can then make a string and check if "console.log(STRANGE_STRING.toUpperCase().toLowerCase().length > STRANGE_STRING.length);" is true.
 
 // Kata from https://www.codewars.com/kata/644b17b56ed5527b09057987
-// 2024.01.06

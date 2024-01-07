@@ -56,4 +56,3 @@ function equal5() {
 // 1. No thoughts, just vibes.
 
 // Kata from https://www.codewars.com/kata/571edd157e8954bab500032d
-// 2024.01.05

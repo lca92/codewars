@@ -32,4 +32,3 @@ const trueOrFalse = (val) => Boolean(val).toString();
 // 2. Since my answer has to be a string, I use toString() at the end.
 
 // Kata from https://www.codewars.com/kata/571f832f07363d295d001ba8
-// 2024.01.05

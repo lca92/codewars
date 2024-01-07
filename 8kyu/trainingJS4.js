@@ -62,4 +62,3 @@ function popElement(arr) {
 // 5. ... and pop() excludes an element from the end of the array.
 
 // Kata from https://www.codewars.com/kata/571effabb625ed9b0600107a
-// 2024.01.05

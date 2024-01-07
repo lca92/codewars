@@ -20,4 +20,3 @@ const differenceInAges = (ages) => {
 // 4. We return the youngest, the oldest and the difference in years between them.
 
 // Kata from https://www.codewars.com/kata/5720a1cb65a504fdff0003e2/javascript
-// 2024.01.04

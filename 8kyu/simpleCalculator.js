@@ -38,4 +38,3 @@ const calculator = (a, b, sign) => {
 // 2. If they are numbers, now I have to check which of the four possible mathematical signs is the argument sign. For each case, I'll perform the corresponding calculation.
 
 // Kata from https://www.codewars.com/kata/5810085c533d69f4980001cf/javascript
-// 2024.01.02

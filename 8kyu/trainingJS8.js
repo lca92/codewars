@@ -88,4 +88,3 @@ const howManydays = (month) => {
 // 1. Not many thoughts on this, only that I used default on the switch case for every month with 31 days.
 
 // Kata from https://www.codewars.com/kata/572059afc2f4612825000d8a
-// 2024.01.06

@@ -59,4 +59,3 @@ function answer3() {
 // 1. No thoughts, just vibes.
 
 // Kata from https://www.codewars.com/kata/571edea4b625edcb51000d8e
-// 2024.01.05

@@ -55,4 +55,3 @@ const saleHotdogs = (n) => n * (n < 5 ? 100 : n < 10 ? 95 : 90);
 // 2. Since every answer will be multiplied by n, I can put it outside the ternary operator, multiplying it all.
 
 // Kata from https://www.codewars.com/kata/57202aefe8d6c514300001fd
-// 2024.01.06

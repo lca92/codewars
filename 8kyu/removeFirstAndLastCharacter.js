@@ -12,4 +12,3 @@ const removeChar = (str) => str.slice(1, -1);
 // 3. For the end, I choose index -1, because it will count backwards on the string and exclude the last character.
 
 // Kata from https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/javascript
-// 2024.01.03

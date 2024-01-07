@@ -18,4 +18,3 @@ const quarterOf = (month) => Math.ceil(month / 3);
 // 3. But month => month/3 doesn't work, because the input, although is said to be an integer, may be a rational number. So we have to use Math.ceil() to round up the input number.
 
 // Kata from https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/javascript
-// 2024.01.01

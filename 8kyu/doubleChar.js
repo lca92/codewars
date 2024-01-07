@@ -26,4 +26,3 @@ const doubleChar = (str) =>
 // 7. For the separator string, I will, again, use an empty string (""), which translates to "I don't want anything between each element".
 
 // Kata from https://www.codewars.com/kata/56b1f01c247c01db92000076/javascript
-// 2024.01.03

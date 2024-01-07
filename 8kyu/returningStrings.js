@@ -13,4 +13,3 @@ const greet = (name) => `Hello, ${name} how are you doing today?`;
 // 1. Using arrow function and template literals, I substitute the placeholder name with the given string.
 
 // Kata from https://www.codewars.com/kata/55a70521798b14d4750000a4/javascript
-// 2024.01.03
