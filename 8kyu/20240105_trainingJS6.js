@@ -25,7 +25,11 @@
 
 // My answer:
 
+const trueOrFalse = (val) => Boolean(val).toString();
+
 // My reasoning:
+// 1. The Boolean object represents a truth value: true or false. If I use it with val, it evaluates if val is true or false.
+// 2. Since my answer has to be a string, I use toString() at the end.
 
 // Kata from https://www.codewars.com/kata/571f832f07363d295d001ba8
 // 2024.01.05
