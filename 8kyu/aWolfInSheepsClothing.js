@@ -28,7 +28,7 @@ const warnTheSheep = (queue) =>
 
 // My reasoning:
 // 1. With indexOf(), we can find the wolf's index in the array.
-// 2. If this integer is equal to the queue's length minus 1, it means the wolf is right next to us, because we're counting in decrescent order.
+// 2. If this integer is equal to the queue's length minus 1, it means the wolf is right next to us, because we're counting in descending order.
 // 3. Also, let's always keep in mind that we start counting indexes from 0, so we have to subtract 1 from the array's length.
 // 4. If the wolf is next to us, let's beg them to leave our sheep alone.
 // 5. Let's alert the sheep right next to them if they aren't,
