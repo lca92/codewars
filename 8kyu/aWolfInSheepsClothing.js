@@ -31,7 +31,7 @@ const warnTheSheep = (queue) =>
 // 2. If this integer is equal to the queue's length minus 1, it means the wolf is right next to us, because we're counting in descending order.
 // 3. Also, let's always keep in mind that we start counting indexes from 0, so we have to subtract 1 from the array's length.
 // 4. If the wolf is next to us, let's beg them to leave our sheep alone.
-// 5. Let's alert the sheep right next to them if they aren't,
+// 5. Let's alert the sheep right next to them if they aren't.
 // 6. For that, we have to find its position in the array. We subtract the index of the wolf from the array's length minus 1.
 
 // Kata from https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/javascript
