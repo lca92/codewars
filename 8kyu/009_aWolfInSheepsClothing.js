@@ -34,4 +34,4 @@ const warnTheSheep = (queue) =>
 // 5. Let's alert the sheep right next to them if they aren't.
 // 6. For that, we have to find its position in the array. We subtract the index of the wolf from the array's length minus 1.
 
-//... Kata from https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/javascript
+// Kata from https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/javascript
