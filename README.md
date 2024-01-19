@@ -9,10 +9,10 @@ Each file is organized in the following manner:
 1. Code challenge title
 2. Challenge description
 3. My answer
-4. My reasoning.
-5. Url to the original challenge.
+4. My reasoning
+5. Url to the original challenge
 
-I hope we can learn together.
+Feel free to reach me at lenaaraujo92@gmail.com. I hope we can learn together.
 
 Much love,
 Lena.
