@@ -8,11 +8,11 @@ I am completing the katas in order from easiest (8 kyu) to hardest (1 kyu).
 
 Each file is organized in the following manner:
 
-1. Code challenge title
-2. Challenge description
+1. Kata title
+2. Kata description
 3. My answer
 4. My reasoning
-5. Url to the original challenge
+5. Url to the original kata
 
 Feel free to reach me at lenaaraujo92@gmail.com. I hope we can learn together.
 
