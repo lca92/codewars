@@ -11,7 +11,7 @@
 
 // My answer:
 
-const areaOrPerimeter = (l, w) => (l == w ? l * w : 2 * l + 2 * w);
+const areaOrPerimeter = (l, w) => (l == w ? l * w : 2 * (l + w));
 
 // My reasoning:
 // 1. We ask ourselves: "Is the length equal to the width?".
