@@ -16,7 +16,7 @@ const spEng = (sentence) =>
 // My reasoning:
 // 1. We have to put all the characters either in lower or upper case, so we may compare them properly.
 // 2. I used the toLowerCase() method, which puts the characters in lowercase.
-// 3. Now, we must check if the string sentence includes the word "english" with the method includes().
+// 3. Now, we must check if the string includes the word "english" with the method includes().
 // 4. If it does, we return true.
 // 5. If it doesn't, we return false.
 
