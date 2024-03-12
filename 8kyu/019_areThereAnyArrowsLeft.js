@@ -12,8 +12,12 @@
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 // My answer:
-const anyArrows = (arrows) => arrows.some((quiver) => !quiver.damaged);
+const anyArrows = (arrows) => arrows.some((arrow) => !arrow.damaged);
 
 // My reasoning:
+// 1. We use some() to check if there are some elements that follow a certain rule.
+// 2. For our rule, we choose !quiver.damaged.
+// 3. It checks if the damaged property of the arrow object is falsy (not damaged).
+// 4. If the arrow is not damaged (!quiver.damaged evaluates to true), then the arrow is considered usable.
 
 // Kata from https://www.codewars.com/kata/559f860f8c0d6c7784000119/javascript
