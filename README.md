@@ -2,7 +2,7 @@ Hello.
 
 I love code challenges, but I don't believe in competition. Codewars is a popular website where you can find many code challenges (which they call katas), but you can only access other people's answers after you pass the tests yourself.
 
-Although I love Codewars, I don't think this is productive when you learn something new. With this repository, I intend to explain how I got to each answer to whoever wandered here from Google, and challenge myself to complete two katas per day.
+Although I love Codewars, I don't think this is productive when you learn something new. With this repository, I intend to explain how I got to each answer to whoever wandered here from Google, and challenge myself to complete at least one kata per day.
 
 I am completing the katas in order from easiest (8 kyu) to hardest (1 kyu).
 
