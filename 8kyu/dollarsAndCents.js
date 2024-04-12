@@ -14,6 +14,7 @@
 // Good luck! Your team knows they can count on you!
 
 // My answer:
+
 const formatMoney = (amount) => `$${amount.toFixed(2)}`;
 
 // My reasoning:
