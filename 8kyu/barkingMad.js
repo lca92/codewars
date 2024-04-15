@@ -22,5 +22,6 @@ let snoopy = new Dog("Beagle");
 let scoobydoo = new Dog("Great Dane");
 
 // My reasoning:
+// 1. We had to add the bark method to the class Dog. That way, every new Dog will be able to bark().
 
 // Kata from https://www.codewars.com/kata/54dba07f03e88a4cec000caf/javascript
