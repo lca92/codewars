@@ -7,16 +7,15 @@
 // My answer:
 
 const differenceInAges = (ages) => {
-  let youngest = ages.sort((a, b) => a - b)[0];
-  let oldest = ages.sort((a, b) => b - a)[0];
+  let youngest = Math.min(...ages);
+  let oldest = Math.max(...ages);
   return [youngest, oldest, oldest - youngest];
 };
 
 // My reasoning:
-// 1. Let's define the youngest person's age. sort() will organize the integers in ascending order, but it does this based on Unicode characters.
-// 2. To put it in the order of the natural numbers, we must iterate subtracting b from a.
-// 3. We add [0] at the end to select the first index from the youngest array.
-// 3. Now, we do the same for the oldest person's age, but subtracting a from b.
+// 1. The Math.min() static method returns the smallest of the numbers given as input parameters.
+// 2. The Math.max() static method returns the largest of the numbers given as input parameters.
+// 3. The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
 // 4. We return the youngest, the oldest and the difference in years between them.
 
 // Kata from https://www.codewars.com/kata/5720a1cb65a504fdff0003e2/javascript
