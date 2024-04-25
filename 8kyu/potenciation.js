@@ -15,6 +15,6 @@
 const power = (x, y) => x ** y;
 
 // My reasoning:
-// 1. To calculate potenciation, we use **.
+// 1. To calculate potentiation, we use **.
 
 // Kata from https://www.codewars.com/kata/59fc72fe235f93838b002235/javascript
