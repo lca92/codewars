@@ -11,9 +11,9 @@
 // My answer:
 
 const chromosomeCheck = (sperm) =>
-  sperm.includes("Y")
-    ? `Congratulations! You're going to have a son.`
-    : `Congratulations! You're going to have a daughter.`;
+  `Congratulations! You're going to have a ${
+    sperm.includes("Y") ? `son` : `daughter`
+  }.`;
 
 // My reasoning:
 
