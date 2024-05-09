@@ -12,8 +12,7 @@
 
 // My answer:
 
-const typeValidation = (variable, type) =>
-  typeof variable == type ? true : false;
+const typeValidation = (variable, type) => typeof variable == type;
 
 // My reasoning:
 
