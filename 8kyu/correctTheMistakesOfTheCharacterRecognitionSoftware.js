@@ -17,5 +17,6 @@ const correct = (string) =>
   string.replaceAll("5", "S").replaceAll("0", "O").replaceAll("1", "I");
 
 // My reasoning:
+// 1. replaceAll() returns a new string with all matches of a pattern replaced by a replacement.
 
 // Kata from https://www.codewars.com/kata/577bd026df78c19bca0002c0/javascript
