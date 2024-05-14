@@ -16,5 +16,6 @@
 const DNAtoRNA = (dna) => dna.replaceAll("T", "U");
 
 // My reasoning:
+// 1. The replaceAll() method returns a new string with all matches of a pattern replaced by a replacement.
 
 // Kata from https://www.codewars.com/kata/5556282156230d0e5e000089/javascript
