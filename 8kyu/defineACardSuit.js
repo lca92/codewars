@@ -18,5 +18,6 @@ const defineSuit = (card) => {
 };
 
 // My reasoning:
+// 1. We just have to check which is the card suit and return the respective name.
 
 // Kata from https://www.codewars.com/kata/5a360620f28b82a711000047/javascript
