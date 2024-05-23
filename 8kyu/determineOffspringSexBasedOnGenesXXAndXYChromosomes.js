@@ -16,5 +16,9 @@ const chromosomeCheck = (sperm) =>
   }.`;
 
 // My reasoning:
+// 1. includes() determines whether an array includes a certain value among its entries.
+// 2. We use the ternary operator to ask ourselves: "Does the sperm have a Y chromosome?".
+// 3. If so, they're going to have a son.
+// 4. Else, they're going to have a daughter.
 
 // Kata from https://www.codewars.com/kata/56530b444e831334c0000020/javascript
