@@ -9,7 +9,7 @@
 
 // My answer:
 
-const checkAlive = (health) => (health > 0 ? true : false);
+const checkAlive = (health) => health > 0;
 
 // My reasoning:
 
