@@ -13,4 +13,4 @@ const sayHello = (name) => `Hello, ${name}`;
 
 // My reasoning:
 
-// Kata https://www.codewars.com/kata/5625618b1fe21ab49f00001f/javascript
+// Kata from https://www.codewars.com/kata/5625618b1fe21ab49f00001f/javascript
