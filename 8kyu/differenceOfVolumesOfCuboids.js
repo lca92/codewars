@@ -17,5 +17,7 @@ const findDifference = (a, b) =>
   );
 
 // My reasoning:
+// 1. The reduce() method executes a callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element.
+// 2. Math.abs returns the absolute value of a number.
 
 // Kata from https://www.codewars.com/kata/58cb43f4256836ed95000f97/javascript
